@@ -8,7 +8,10 @@
     "lint": "eslint .",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": "https://github.com/safonovatanya/ahj-homeworks/tree/master/dom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safonovatanya/dom"
+  },
   "author": "Tanya",
   "license": "MIT",
   "dependencies": {
