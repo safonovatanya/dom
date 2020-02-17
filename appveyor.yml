@@ -1,0 +1,5 @@
+version: 1.0.{build}
+environment:
+  git: cc5b65d2bde91c87c3250d7571b2260439252b44
+build:
+  verbosity: minimal
