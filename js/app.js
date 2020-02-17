@@ -27,7 +27,7 @@ class GameBoard {
         prevItemField.innerHTML = '';
       }
       const itemField = document.getElementById(`field${this.itemIndex}`);
-      itemField.innerHTML = '<img src="pic/goblin.png">';
+      itemField.innerHTML = '<img src="https://github.com/safonovatanya/dom/blob/master/pic/goblin.png?raw=true">';
       this.prevIndex = this.itemIndex;
     }, 1000);
   }
